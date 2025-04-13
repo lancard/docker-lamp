@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN apt-get install git php php-gd php-xml php-curl php-mysql -y
+RUN apt-get install git php php-gd php-xml php-curl php-mysql vim -y
 RUN a2enmod rewrite
 
 WORKDIR /var/www/html
