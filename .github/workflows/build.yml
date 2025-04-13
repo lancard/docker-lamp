@@ -33,4 +33,4 @@ jobs:
           push: true
           tags: |
             lancard/docker-lamp:latest
-            lancard/docker-lamp:$DATE
+            lancard/docker-lamp:${{ env.DATE }} 
